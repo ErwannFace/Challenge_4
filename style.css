@@ -1,0 +1,22 @@
+header{
+	background-color:blue;
+}
+.block_1{
+	background-color:yellow;
+}
+.block_2{
+	background-color:red;
+}
+.block_3{
+	background-color:purple;
+}
+.no_padding > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+    margin-right:0px;
+    margin-left:0px;
+}
+div img{
+	width:100%;
+
+}
