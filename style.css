@@ -1,3 +1,9 @@
+/* style de la barre de navigation */
+
+header {
+	height: 50px;
+}
+
 /* style de la première section ("find out more") */
 
 header+section {
