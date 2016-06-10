@@ -1,0 +1,27 @@
+.hr {
+	background-color: red;
+	width: 100px;
+	height: 5%;
+	
+}
+
+.img {
+	padding: 0!important;
+}
+
+img {
+	width: 430.433px;
+}
+
+.dl {
+	background-color: black;
+	
+}
+
+.jumbotron {
+	background-color: black;
+}
+
+.btn {
+	background-color: white;
+}
