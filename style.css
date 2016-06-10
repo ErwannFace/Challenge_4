@@ -1,3 +1,10 @@
+/* style du document */
+
+.container-fluid {
+	margin: 0;
+	padding: 0;
+}
+
 /* style de la barre de navigation */
 
 header {
@@ -6,6 +13,26 @@ header {
 
 .navbar {
 	margin-bottom: 0;
+	background-color: #FFFFFF;
+}
+
+.navbar-nav {
+	padding-right: 15px;
+}
+
+.navbar-brand,
+.navbar-nav a {
+	font-size: 1em;
+	font-weight: 700;
+	font-family: "Open Sans";
+}
+
+.navbar-brand {
+	color: #F05F40;
+}
+
+.navbar-nav a {
+	color: #222222;
 }
 
 /* style de la première section ("find out more") */
