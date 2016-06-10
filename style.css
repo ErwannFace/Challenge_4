@@ -2,3 +2,31 @@
 	font-size: 40px;
 }
 
+/*partie At your service*/
+#AtYou {
+	text-align: center;
+	height: 450px;
+	padding-bottom: 0px;
+	padding-top: 100px;
+}
+
+/*en bas de 6images*/
+
+#FreeD{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+/* partie bottom*/
+#Let {
+	padding-right: 200px;
+	padding-left: 200px;
+	padding-top: 100px;
+}
+#tel {
+	padding-right: 0px;
+	padding-left: 300px;
+}
+#message {
+	padding-right: 300px;
+	padding-left: 0px;
+}
