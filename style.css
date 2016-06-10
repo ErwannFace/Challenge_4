@@ -1,0 +1,7 @@
+/* style de la première section ("find out more") */
+
+header+section {
+	background-image: url("img/header.jpg");
+	background-attachment: fixed;
+	background-size: 100%;
+}
