@@ -4,8 +4,21 @@ font-family: 'Merriweather', serif; --- */
 /* --- COLORS ---
 Orange : #f05f40 --- */
 
+/* --- affectation des fonts --- */
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-family: 'Merriweather', serif;
+}
+
+a {
+    color: #f05f40;
+}
+
 header {
-    background-image: url(../images/photo1.jpg);
+    background-image: url(../images/photoheader.jpg);
     background-size: 100%;
     background-position: center center;
     color: #fff;
@@ -19,6 +32,9 @@ h1 {
     margin: 0 0 20px 0;
 }
 
+h2 {
+    margin: 60px 0 20px 0;
+}
 
 /* --- petite ligne oragne ou blanche --- */
 .line-orange {
@@ -36,10 +52,49 @@ h1 {
 }
 
 
-/* --- style pour fixer le problème des 6 images --- */
-.img-auto {
-    width: 100%;
-    padding: 0;
-    margin: 0;
+/* --- la section orange --- */
+.bloc-orange {
+    background-color: #f05f40;
+    color: #fff;
+    text-align: center;
 }
 
+.btn-default {
+    font-size: 11px;
+    font-weight: 700;
+    padding: 10px 25px;
+    margin: 20px auto 60px auto;
+    border-radius: 50px;
+}
+
+/* --- section blanch --- */
+.bloc-white {
+    padding: 0 0 60px 0;
+}
+
+/* --- icons awesome --- */
+.fa {
+    color: #f05f40;
+}
+
+/* --- style pour fixer le problème des 6 images --- */
+.img-auto {
+    padding: 0;!important
+}
+
+
+/* --- bloc free download --- */
+.bloc-black {
+    background-color: #000;
+    color: #fff;
+}
+
+
+/* --- pied de page --- */
+footer {
+    padding: 20px 0 100px 0;
+}
+
+footer i.fa {
+    color: #000;
+}
