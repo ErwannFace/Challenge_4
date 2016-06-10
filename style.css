@@ -35,14 +35,38 @@ header {
 	color: #222222;
 }
 
+/* style des deux premières sections */
+
+header+section,
+header+section+section {
+	text-align: center;
+}
+
+hr {
+	width: 50px;
+	height: 3px;
+	border: 0;
+}
+
+.btn {
+	margin: 50px 0;
+	padding: 18px 30px;
+	border-radius: 30px;
+}
+
+.btn > p {
+	margin: 0;
+	font-weight: 700;
+	font-family: "Open Sans";
+}
+
 /* style de la première section ("find out more") */
 
 header+section {
 	height: 840px;
 	padding-top: 220px;
-	text-align: center;
 	background-image: url("img/header.jpg");
-	background-size: auto 100%;
+	background-size: 100% 100%;
 	background-position: center;
 }
 
@@ -54,10 +78,7 @@ h1 {
 	color: #FFFFFF;
 }
 
-hr {
-	width: 50px;
-	height: 3px;
-	border: 0;
+header+section > hr {
 	background-color: #F05F40;
 }
 
@@ -69,40 +90,41 @@ header+section > p {
 	color: rgba(255,255,255,0.8);
 }
 
-.btn {
-	margin: 50px 0;
-	padding: 18px 30px;
-	border-radius: 30px;
+header+section .btn {
 	background-color: #F05F40;
-}
-
-header+section > a > .btn > p {
-	margin: 0;
-	font-weight: 700;
-	font-family: "Open Sans";
 	color: #FFFFFF;
 }
 
 /* style de la première section ("get started!") */
 
 header+section+section {
+	height: 420px;
+	padding-top: 100px;
 	background-color: #F05F40;
 	color: #FFFFFF;
 }
 
-header+section+section > h2 {
+h2 {
+	margin-top: 0;
+	font-size: 2em;
 	font-family: "Open Sans";
+	color: #FFFFFF;
+}
+
+header+section+section > hr {
+	background-color: #FFFFFF;
 }
 
 header+section+section > p {
+	max-width:75%;
+	margin: auto;
 	font-size: 1em;
 	font-weight: 100;
 	font-family: "Merriweather";
 	color: rgba(255,255,255,0.8);
 }
 
-header+section+section > a > button > p {
-	font-weight: 700;
-	font-family: "Open Sans";
+header+section+section .btn {
+	background-color: #FFFFFF;
 	color: #000000;
 }
