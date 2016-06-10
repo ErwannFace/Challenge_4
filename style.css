@@ -1,11 +1,19 @@
+
+body{
+margin: 0;
+padding: 0;
+}
+
 hr{
-width: 5%;
-color: #f05f40;
+width: 50px;
+background-color: #f05f40;
+height: 3px;
 }
 
 i {
 color: #f05f40;	
 }
 
-
-
+.img1{
+padding: 0!important;
+}
