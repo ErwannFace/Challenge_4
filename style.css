@@ -5,3 +5,10 @@ header+section {
 	background-attachment: fixed;
 	background-size: 100%;
 }
+
+h1 {
+	font-size: 4em;
+	font-weight: 700;
+	font-family: "Open Sans";
+	color: #FFFFFF;
+}
