@@ -38,9 +38,12 @@ header {
 /* style de la première section ("find out more") */
 
 header+section {
+	height: 840px;
+	padding-top: 220px;
+	text-align: center;
 	background-image: url("img/header.jpg");
-	background-attachment: fixed;
-	background-size: 100%;
+	background-size: auto 100%;
+	background-position: center;
 }
 
 h1 {
@@ -51,14 +54,30 @@ h1 {
 	color: #FFFFFF;
 }
 
+hr {
+	width: 50px;
+	height: 3px;
+	border: 0;
+	background-color: #F05F40;
+}
+
 header+section > p {
+	margin: 0;
 	font-size: 1.2em;
 	font-weight: 100;
 	font-family: "Merriweather";
 	color: rgba(255,255,255,0.8);
 }
 
-header+section > a > button > p {
+.btn {
+	margin: 50px 0;
+	padding: 18px 30px;
+	border-radius: 30px;
+	background-color: #F05F40;
+}
+
+header+section > a > .btn > p {
+	margin: 0;
 	font-weight: 700;
 	font-family: "Open Sans";
 	color: #FFFFFF;
