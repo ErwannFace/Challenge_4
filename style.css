@@ -1,19 +1,108 @@
-
-body{
-margin: 0;
-padding: 0;
+/*barre de navigation*/
+* {
+	font-family: "Open Sans";
 }
 
-hr{
-width: 50px;
-background-color: #f05f40;
-height: 3px;
+#myNavbar a:hover
+{
+   background-color: #f05f40 ;
+   color: white;
 }
 
-i {
-color: #f05f40;	
+
+.start {
+	color: #f05f40;
 }
 
-.img1{
-padding: 0!important;
+
+.collapse {
+	color: black;
 }
+
+/*1ère partie*/
+.photo1 {
+	background-image: url(header.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 700px;
+	margin-top: 50px;
+
+}
+
+.texte1 {
+	margin :0 auto;
+	margin-top: 100px;
+	height: 700px;
+	
+	text-align: center;
+	color: white;	
+}
+
+.trait1{
+	height: 5px;
+	width: 80px;
+	background-color: #f05f40;
+	border :none;
+}
+
+h1{
+	font-weight: bold;
+}
+
+p{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-family:"Merriweather";
+}
+.buttonO{
+	background-color: #f05f40;
+	color: white;
+	margin-top: 50px;
+	border:none;
+	border-radius:25px;
+	width:160px;
+}
+
+/*2ème partie*/
+.fond {
+	display: flex;
+	background-color: #f05f40;
+	width: 100%;
+	height: 400px;
+}
+
+.texte2 {
+	height: 400px;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+}
+
+.trait{
+	height: 5px;
+	width: 80px;
+	background-color: white;
+}
+
+h3{
+	margin-top: 100px;
+}
+
+.buttonB {
+	background-color: white;
+	color: black;
+	margin-top: 50px;
+	border:none;
+	border-radius:25px;
+	width:160px;
+
+}
+
+/*Ce qu'il me reste a faire :
+container : 
+navbarre : faire qu'elle devienne blanche quand on descend
+Mettre la police
+
+*/
