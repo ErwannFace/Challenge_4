@@ -9,6 +9,7 @@ header{
 }
 .block_3{
 	background-color:purple;
+	height:460px;
 }
 .no_padding > [class*='col-'] {
     padding-right:0;
@@ -22,6 +23,7 @@ div img{
 }
 hr{
 	width:5%;
+
 }
 .hrorange{
 	border-color:#f05f40;
