@@ -19,3 +19,9 @@ header+section > p {
 	font-family: "Merriweather";
 	color: rgba(255,255,255,0.8);
 }
+
+header+section > a > button > p {
+	font-weight: 700;
+	font-family: "Open Sans";
+	color: #FFFFFF;
+}
