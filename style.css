@@ -25,3 +25,27 @@ header+section > a > button > p {
 	font-family: "Open Sans";
 	color: #FFFFFF;
 }
+
+/* style de la première section ("get started!") */
+
+header+section+section {
+	background-color: #F05F40;
+	color: #FFFFFF;
+}
+
+header+section+section > h2 {
+	font-family: "Open Sans";
+}
+
+header+section+section > p {
+	font-size: 1em;
+	font-weight: 100;
+	font-family: "Merriweather";
+	color: rgba(255,255,255,0.8);
+}
+
+header+section+section > a > button > p {
+	font-weight: 700;
+	font-family: "Open Sans";
+	color: #000000;
+}
