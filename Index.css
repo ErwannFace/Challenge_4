@@ -1,9 +1,9 @@
 * {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Merriweather', sans-serif;
 }
 
-p {
-    font-family: 'Merriweather', serif;
+h1, h2, h3 {
+    font-family: 'Open Sans', serif;
 }
 
 .service { /* tout la section avec le titre et les icones*/
@@ -13,10 +13,15 @@ p {
 
 .at { /*le titre*/
 	padding-bottom: 10px;
+	color: #333333;
 }
 
 .fonta { /*div avec les icone*/
 	padding-top: 30px;
+}
+
+.service i {
+	color: #f05f40;
 }
 
 .orange { /*pour les deux barre orange*/
@@ -30,6 +35,8 @@ p {
 	padding: 0!important;
 	
 }
+
+
 
 .DL { /*partie noir ou ya le dl*/
 	background-color: #222222;
@@ -54,11 +61,36 @@ p {
 	font-size:15px;
 }
 
+.button:hover {
+	background-color: #f05f40;
+}
+
 .DL a {
 	text-decoration: none;
 	color: #222222; 
 }
 
 .contact { /* la partie pour contacter*/
-	
+	padding-top: 80px;
+	padding-bottom: 100px;
+}
+
+.contact h2 {
+	padding-bottom: 5px;
+}
+
+.lets{ /*petit texte*/
+	padding-top: 25px;
+}
+
+.I_cont { /*les deux icone*/
+	padding-top: 10px;
+}
+
+.you { /*icone de la lettre*/
+	display: block;
+}
+
+.contact a {
+	color: #f05f40;
 }
