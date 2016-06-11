@@ -1,27 +1,64 @@
-.hr {
-	background-color: red;
-	width: 100px;
-	height: 5%;
-	
+* {
+    font-family: 'Open Sans', sans-serif;
 }
 
-.img {
+p {
+    font-family: 'Merriweather', serif;
+}
+
+.service { /* tout la section avec le titre et les icones*/
+	padding-top: 80px;
+	padding-bottom: 100px;
+}
+
+.at { /*le titre*/
+	padding-bottom: 10px;
+}
+
+.fonta { /*div avec les icone*/
+	padding-top: 30px;
+}
+
+.orange { /*pour les deux barre orange*/
+    width: 60px;
+    height: 4px;
+    margin: auto;
+    background-color: #f05f40;
+}
+
+.img { /*pour les 6 image*/
 	padding: 0!important;
-}
-
-img {
-	width: 430.433px;
-}
-
-.dl {
-	background-color: black;
 	
 }
 
-.jumbotron {
-	background-color: black;
+.DL { /*partie noir ou ya le dl*/
+	background-color: #222222;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
-.btn {
-	background-color: white;
+.DL h2 {
+	margin-bottom: 25px;
+	color: #F2F2F2;
+}
+
+.button{ /*bouton de dl*/
+	background-color: #F2F2F2;
+	border:none;
+	padding: 17px 30px 17px 30px;
+	text-align: center;
+	display:inline-block;
+	cursor: pointer;
+	letter-spacing: 2px;	
+	border-radius: 50px;
+	font-size:15px;
+}
+
+.DL a {
+	text-decoration: none;
+	color: #222222; 
+}
+
+.contact { /* la partie pour contacter*/
+	
 }
