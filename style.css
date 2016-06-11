@@ -23,14 +23,14 @@ a:hover {
 
 /*#navbar {
     background-color: transparent;
-    border-color: rgba(255, 255, 255, 0.3);
 }*/
 
-.header {
+#header {
 	width: 1280px;
 	height: 850px;
 	margin-left: auto;
 	margin-right: auto;
+	
 }
 
 #img_header {
@@ -39,10 +39,163 @@ a:hover {
 	background-image: url(images/header.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+	margin-right: auto;
+	margin-left: auto;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+}
+
+h1 {
+	font-size: 40px;
+	color: white;
+}
+
+.hr_orange {
+	width: 5%;
+	height: 3px;
+	background-color: #F05F40;
+	border-top: 0px; 
+}
+
+#header p {
+	font-family: "Merriweather";
+	color: white;
+	margin-top: 25px;
+	font-size: 15px;
+}
+
+#bouton_orange {
+	background-color: #F05F40;
+	color: white;
+	height: 50px;
+	width: 180px;
+	border: 0;
+	margin-top: 30px;
+	border-radius: 50px;
+	padding-top: 9px;
+}
+
+#section1 {
+	width: 1280px;
+	height: 420px;
+	background-color: #F05F40;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+}
+
+#section1 h2 {
+	font-size: 25px;
+	color: white;
+}
+
+#hr_blanche {
+	width: 5%;
+	height: 3px;
+	background-color: white;
+	border-top: 0px; 
+}
+
+#section1 p {
+	color: white;
+	font-size: 15px;
+}
+
+#bouton_blanc {
+	background-color: white;
+	color: black;
+	height: 50px;
+	width: 180px;
+	border: 0;
+	margin-top: 30px;
+	border-radius: 50px;
+	padding-top: 9px;
+}
+
+#section2 {
+	height: 460px;
+	width: 1280px;
+	background-color: white;
 	margin-right: auto;
 	margin-left: auto;
+	padding-top: 50px;
 }
+
+#section2 h2 {
+	color: black;
+	font-size: 25px;
+}
+
+#bloc_text {
+	padding-top: 30px;
+}
+
+i {
+	color: #F05F40;
+}
+
+#section2 p {
+	color: #4d4d4d;
+}
+
+#section3 {
+	height: 630px;
+	width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#images {
+	height: 430px;
+	background-color: red;
+}
+
+.jumbotron {
+	height: 200px;
+	background-color: black;
+}
+
+.jumbotron h2 {
+	color: white;
+	font-size: 25px;
+	margin-top: 10px;
+}
+
+.jumbotron #bouton_blanc {
+	background-color: white;
+	color: black;
+	height: 50px;
+	width: 180px;
+	border: 0;
+	margin-top: 10px;
+	border-radius: 50px;
+	padding-top: 9px;
+}
+
+#footer {
+	height: 430px;
+	width: 1280px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 60px;
+}
+
+#footer h2 {
+	color: black;
+	font-size: 25px;
+}
+
+#footer i {
+	color: black;
+	padding-top: 20px;
+}
+
+.mail a {
+	color: #F05F40;
+}
+
+
+
