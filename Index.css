@@ -69,13 +69,18 @@ h1, h2, h3 {
   left: 0;
   padding: 50px 20px;
 }
+.overlay {
+	margin-top: 30px;
+	text-align: center;
+	font-size: 30px;	
+}
 
 .hovereffect img {  /* effet hover*/
   display: block;
   position: relative;
   max-width: none;
   width: calc(100% + 20px);
-  -webkit-transition: opacity 0.40s, -webkit-transform 0.40s; /*vitesse d'pparition du hover*/
+  -webkit-transition: opacity 0.40s, -webkit-transform 0.40s; /*vitesse d'apparition du hover*/
   transition: opacity 0.40s, transform 0.40s;
   -webkit-transform: translate3d(0,0,0);/*l'image reste fixe pendant le hover*/
   transform: translate3d(0,0,0); /*l'image reste fixe pendant le hover*/
@@ -91,7 +96,7 @@ h1, h2, h3 {
 }
 
 .hovereffect a, .hovereffect h4 { /*le texte sans le hover*/
-  color: #FFF;
+  color: #fff;
   opacity: 0;
   filter: alpha(opacity=0);
   -webkit-transition: opacity 0.40s, -webkit-transform 0.40s;
