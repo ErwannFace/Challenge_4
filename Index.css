@@ -22,6 +22,20 @@ h1, h2, h3 {
 
 .service i {
 	color: #f05f40;
+	-webkit-animation-name: bounceIn; 
+    -webkit-animation-duration: 0.50s; 
+    animation-name: bounceIn;
+    animation-duration: 0.50s;
+}
+
+@-webkit-keyframes bounceIn {
+    from {color: white;}
+    to {color: #f05f40;}
+}
+
+@keyframes bounceIn {
+    from {color: white;}
+    to {color: #f05f40;}
 }
 
 .orange { /*pour les deux barre orange*/
@@ -51,8 +65,8 @@ h1, h2, h3 {
   position: relative;
   max-width: none;
   width: calc(100% + 20px);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transition: opacity 0.40s, -webkit-transform 0.40s; /*vitesse d'pparition du hover*/
+  transition: opacity 0.40s, transform 0.40s;
   -webkit-transform: translate3d(0,0,0);/*l'image reste fixe pendant le hover*/
   transform: translate3d(0,0,0); /*l'image reste fixe pendant le hover*/
   -webkit-backface-visibility: hidden;
