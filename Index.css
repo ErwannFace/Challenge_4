@@ -31,12 +31,40 @@ h1, h2, h3 {
     background-color: #f05f40;
 }
 
-.img { /*pour les 6 image*/
+.hovereffect, .img1, .pho  {
 	padding: 0!important;
-	
 }
 
+.hovereffect { /* effet hover*/
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  background: #f05f40;
+}
 
+.hovereffect img {  /* effet hover*/
+  display: block;
+  position: relative;
+  max-width: none;
+  width: calc(100% + 20px);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,0,0);/*l'image reste fixe pendant le hover*/
+  transform: translate3d(0,0,0); /*l'image reste fixe pendant le hover*/
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.hovereffect:hover img {  /* effet hover*/
+  opacity: 0.1;
+  filter: alpha(opacity=10); /*pour internet explorer 8*/
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
 
 .DL { /*partie noir ou ya le dl*/
 	background-color: #222222;
@@ -94,3 +122,4 @@ h1, h2, h3 {
 .contact a {
 	color: #f05f40;
 }
+
