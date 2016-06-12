@@ -20,7 +20,7 @@ h1, h2, h3 {
 	padding-top: 30px;
 }
 
-.service i {
+.service i { /*l'animation*/
 	color: #f05f40;
 	-webkit-animation-name: bounceIn; 
     -webkit-animation-duration: 1s; 
@@ -45,7 +45,7 @@ h1, h2, h3 {
     background-color: #f05f40;
 }
 
-.hovereffect, .img1, .pho  {
+.hovereffect, .img1, .pho  { /*enleve le padding pour les photo*/
 	padding: 0!important;
 }
 
