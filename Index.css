@@ -47,6 +47,7 @@ h1, h2, h3 {
    -webkit-transform: scale(1);
  }
 }
+
 @keyframes bounceIn{
  0% {
      opacity: 0;
@@ -62,6 +63,7 @@ h1, h2, h3 {
  100% {
   transform: scale(1);
  }
+}
 
 .orange { /*pour les deux barre orange*/
     width: 60px;
