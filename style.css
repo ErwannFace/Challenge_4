@@ -1,15 +1,30 @@
-header{
-	background-color:blue;
-}
+
 .block_1{
-	background-color:yellow;
+	width: 1280px;
+  height: 850px;
+	background-image:url(elements/photos/bg.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	flex-direction: column;
+  align-items: center;
+ 	justify-content: center;
+  margin-top:50px;
+}
+#block_1 p {
+  font-family: "Merriweather";
+  color: white;
+  margin-top: 25px;
+  font-size: 17px;
 }
 .block_2{
-	background-color:red;
+	background-color:#f05f40;
+   width: 1280px;
+  height: 420px;
 }
 .block_3{
-	background-color:purple;
+	background-color:white;
 	height:460px;
+  width: 1280px;
 }
 .no_padding > [class*='col-'] {
     padding-right:0;
@@ -23,8 +38,65 @@ div img{
 }
 hr{
 	width:5%;
-
 }
 .hrorange{
 	border-color:#f05f40;
+}
+/* CSS de la barre de navigation */
+h1, h2, h3 {
+    font-family: 'Open Sans', serif;
+}
+#navbar {
+  background-color: white;
+  height: 50px;
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#navbar a {
+  font-size: 15px;
+  color: #F05F40;
+}
+
+#navbar ul li a {
+  color: black;
+  font-size: 13px;
+}
+
+a:hover {
+  color: #F05F40;
+}
+#bouton_blanc {
+  background-color: white;
+  color: black;
+  height: 50px;
+  width: 180px;
+  border: 0;
+  margin-top: 30px;
+  border-radius: 50px;
+  padding-top: 9px;
+}
+#bouton_orange {
+  background-color: #F05F40;
+  color: white;
+  height: 50px;
+  width: 180px;
+  border: 0;
+  margin-top: 40px;
+  border-radius: 50px;
+  padding-top: 9px;
+}
+.button{ 
+  background-color: #F2F2F2;
+  border:none;
+  padding: 17px 30px 17px 30px;
+  text-align: center;
+  display:inline-block;
+  cursor: pointer;
+  letter-spacing: 2px;  
+  border-radius: 50px;
+  font-size:15px;
+}
+block_5{
+  background-color:#222222
 }
