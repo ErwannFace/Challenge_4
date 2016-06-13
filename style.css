@@ -114,8 +114,13 @@ a:hover {
   border-radius: 50px;
   font-size:15px;
 }
-block_5{
-  background-color:#222222
+.block_5{
+  background-color:#222222;
+  height:230px; 
+}
+.block_5 h2{
+  padding-top:35px;
+  color:white;
 }
 .bouton_blanc {
   background-color: white;
@@ -123,6 +128,19 @@ block_5{
   height: 50px;
   width: 180px;
   border: 0;
-  margin-top: 30px;
   border-radius: 50px;
+}
+.block_6{
+  height:460px;
+}
+.block_6 h2{
+  padding-top:65px;
+}
+.block_6 p{
+  font-size:17px;
+  padding:10px;
+}
+.block_6 a{
+  color:#222222;
+  font-size:17px;
 }
