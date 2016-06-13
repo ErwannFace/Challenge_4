@@ -1,6 +1,5 @@
 
 .block_1{
-	width: 1280px;
   height: 850px;
 	background-image:url(elements/photos/bg.jpg);
 	background-size:cover;
@@ -10,21 +9,40 @@
  	justify-content: center;
   margin-top:50px;
 }
-#block_1 p {
+.block_1 p {
   font-family: "Merriweather";
   color: white;
   margin-top: 25px;
   font-size: 17px;
+  padding:20px;
+}
+h1{
+   font-size: 65px;
+   color: white;
+   padding-top:10%;
 }
 .block_2{
-	background-color:#f05f40;
-   width: 1280px;
+	background-color:#f05f40;;
   height: 420px;
+}
+.block_2 p{
+    font-family: "Merriweather";
+  color: white;
+  margin-top: 25px;
+  font-size: 17px;
+  padding:20px;
+
+}
+.block_2 h2 {
+  color:white;
+  padding-top:4%;
 }
 .block_3{
 	background-color:white;
-	height:460px;
-  width: 1280px;
+  height:460px;
+}
+.block_3 h2{
+  padding-top:3%;
 }
 .no_padding > [class*='col-'] {
     padding-right:0;
@@ -49,7 +67,6 @@ h1, h2, h3 {
 #navbar {
   background-color: white;
   height: 50px;
-  width: 1280px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -99,4 +116,13 @@ a:hover {
 }
 block_5{
   background-color:#222222
+}
+.bouton_blanc {
+  background-color: white;
+  color: black;
+  height: 50px;
+  width: 180px;
+  border: 0;
+  margin-top: 30px;
+  border-radius: 50px;
 }
