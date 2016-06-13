@@ -1,0 +1,233 @@
+/* --- FONTS ---
+font-family: 'Open Sans', sans-serif;
+font-family: 'Merriweather', serif; --- */
+/* --- COLORS ---
+Orange : #f05f40 --- */
+
+/* --- affectation des fonts --- */
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+p {
+    font-family: 'Merriweather', serif;
+}
+
+a {
+    color: #f05f40;
+}
+
+
+header {
+    background-image: url(../images/photoheader.jpg);
+    background-size: 100%;
+    background-position: center center;
+    color: #fff;
+    text-align: center;
+    padding: 15% 0;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+
+h2 {
+    margin: 60px 0 20px 0;
+}
+
+/* --- petite ligne oragne ou blanche --- */
+.line-orange {
+    width: 60px;
+    height: 2px;
+    margin: 0 auto 20px auto;
+    background-color: #f05f40;
+}
+
+.line-white {
+    width: 60px;
+    height: 2px;
+    margin: 0 auto 20px auto;
+    background-color: #fff;
+}
+
+
+/* --- la section orange --- */
+.bloc-orange {
+    background-color: #f05f40;
+    color: #fff;
+    text-align: center;
+}
+
+.btn-default {
+    font-size: 11px;
+    font-weight: 700;
+    padding: 10px 25px;
+    margin: 20px auto 60px auto;
+    border-radius: 50px;
+}
+
+/* section blanch --- */
+.bloc-white {
+    padding: 0 0 60px 0;
+}
+
+/* --- icons awesome --- */
+.fa{
+    color: #f05f40;
+}
+.col-md-3 i {
+  color:#f05f40;
+  -webkit-animation-name: bounceIn;
+   animation-name: bounceIn;
+   -webkit-animation-duration:10s;
+   animation-duration: 10s;
+   -webkit-animation-fill-mode:both;
+   animation-fill-mode:both;
+}
+@keyframes bounceIn{
+  0% {
+      opacity: 0;
+      -webkit-transform: scale(.3);
+  }
+  50% {
+      opacity: 1;
+      -webkit-transform: scale(1.05);
+  }
+  70%{
+    -webkit-transform: scale(.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+@keyframes bounceIn{
+  0% {
+      opacity: 0;
+     transform: scale(.3);
+  }
+  50% {
+      opacity: 1;
+      transform: scale(1.05);
+  }
+  70%{
+   transform: scale(.9);
+  }
+  100% {
+   transform: scale(1);
+  }
+}
+
+/* --- style pour fixer le problème des 6 images --- */
+
+.col-md-4{
+  padding:0!important;
+}
+
+/* --- bloc free download --- */
+.bloc-black {
+    background-color: #000;
+    color: #fff;
+}
+
+
+/* --- pied de page --- */
+footer {
+    padding: 20px 0 100px 0;
+}
+
+footer i.fa {
+    color: #000;
+}
+
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  background: #f05f40;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  padding: 50px 20px;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  max-width: none;
+  width: calc(100% + 20px);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0px,0,0);
+  transform: translate3d(0px,0,0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.hovereffect:hover img {
+  opacity: 0.1;
+  filter: alpha(opacity=40);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.hovereffect p {
+ 
+  color: #fff;
+  text-align: center center;
+  position: relative;
+  font-size: 17px;
+  overflow: hidden;
+  padding: 0.5em 0;
+  background-color: transparent;
+}
+
+/*.hovereffect p:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  content: '';
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(-100%,0,0);
+  transform: translate3d(-100%,0,0);*/
+}
+
+.hovereffect:hover p:after {
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.hovereffect p {
+  color: #FFF;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(100%,0,0);
+  transform: translate3d(100%,0,0);
+}
+
+.hovereffect:hover p {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
