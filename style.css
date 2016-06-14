@@ -1,0 +1,320 @@
+
+
+
+
+
+
+* {
+    font-family: 'Merriweather', sans-serif;
+}
+/*navbar  pas terminee*/
+.navbar navbar-default navbar-fixed-top {
+  background-color: white;
+  height: 50px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar navbar-default navbar-fixed-top a {
+  font-size: 15px;
+  color: #F05F40;
+}
+
+.navbar navbar-default navbar-fixed-top ul li a {
+  color: black;
+  font-size: 13px;
+}
+a:hover {
+  color: #F05F40;
+  }
+
+  /*image de fond*/
+#img_header {
+  width: 100%;
+  height: 800px;
+  background-image: url(images/header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-size: 65px;
+  color: white;
+}
+ /*tiret*/
+.hr_couleur {
+  width: 60px;
+    height: 4px;
+  background-color: #F05F40;
+  border-top: 0px; 
+}
+  
+#header p {
+  font-family: "Merriweather";
+  color: white;
+  margin-top: 25px;
+  font-size: 17px;
+}  
+
+#bouton_1{
+  background-color: #F05F40;
+  color: white;
+  height: 50px;
+  width: 180px;
+  border: 0;
+  margin-top: 40px;
+  border-radius: 50px;
+  padding-top: 9px;
+}
+.btn {
+  font-family: "Open Sans";
+  border: none;
+  border-radius: 300px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  color: #ffffff;
+  background-color: #f05f40;
+  border-color: #f05f40;
+}
+
+.btn-primary  hover {
+  color: #ffffff;
+  background-color: #ee4b28;
+  border-color: #ed431f;
+}
+
+.bg-primary {
+  background-color: #f05f40;
+  padding: 100px 0; 
+  margin: auto;
+  font-family:"Merriweather";
+}
+
+.title-h2 {
+  font-family: "Open Sans";
+  margin: 0;
+}
+
+.small-line {
+  border-color: #ffffff;
+  margin: 30px auto;
+  width: 5%;
+  border-top-width: 3px;
+}
+
+.text-form {
+  font-family: "Merriweather";
+  font-size: 16px;
+  margin: auto;
+  margin-bottom: 20px;
+  width: 65%;
+  color: #dddddd;
+}
+
+h1, h2, h3 {
+    font-family: 'Open Sans', serif;
+}
+/*section avec les differents icones et titres*/
+
+.service { 
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+/*titre*/
+.at { 
+  padding-bottom: 10px;
+  color: #333333;
+}
+/*partie avec les 4 icones*/
+.fonta { 
+  padding-top: 30px;
+}
+
+.service i {
+ color:#f05f40;
+ -webkit-animation-name: bounceIn;
+  animation-name: bounceIn;
+  -webkit-animation-duration:1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-fill-mode:both;
+  animation-fill-mode:both;
+}
+
+
+@keyframes bounceIn{
+ 0% {
+     opacity: 0;
+     -webkit-transform: scale(.3);
+ }
+ 50% {
+     opacity: 1;
+     -webkit-transform: scale(1.05);
+ }
+ 70%{
+   -webkit-transform: scale(.9);
+ }
+ 100% {
+   -webkit-transform: scale(1);
+ }
+}
+
+@keyframes bounceIn{
+ 0% {
+     opacity: 0;
+    transform: scale(.3);
+ }
+ 50% {
+     opacity: 1;
+     transform: scale(1.05);
+ }
+ 70%{
+  transform: scale(.9);
+ }
+ 100% {
+  transform: scale(1);
+ }
+}
+/*trait orange*/
+.barre { 
+    width: 60px;
+    height: 4px;
+    margin: auto;
+    background-color: #f05f40;
+}
+ /*reglage des photos pour qu elles reste bien en place*/
+.hovereffect, .img1, .pho  { 
+  padding: 0;
+}
+
+/* Pour les effets oranges et le texte sur les images*/
+.hovereffect { 
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  background: #f05f40;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  padding: 50px 20px;
+}
+.overlay {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 30px;  
+}
+ /*l effet hover sur l image ainsi que la vitesse  et l effet fixe que les image pendant l apparition du hover*/
+.hovereffect img { 
+  display: block;
+  position: relative;
+  max-width: none;
+  width: calc(100% + 20px);
+  -webkit-transition: opacity 0.40s, -webkit-transform 0.40s; 
+  transition: opacity 0.40s, transform 0.40s;
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0); 
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+  /*effet du hover et reglage pour les navigateur*/
+.hovereffect:hover img {  
+  opacity: 0.1;
+  filter: alpha(opacity=10); 
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+ /* texte produit sans le hover*/
+.hovereffect a, .hovereffect h4 { 
+  color: #fff;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.40s, -webkit-transform 0.40s;
+  transition: opacity 0.40s, transform 0.40s;
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+/*texte avec le hover*/
+.hovereffect:hover a, .hovereffect:hover h4 { 
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.DL { 
+  background-color: #222222;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.DL h2 {
+  margin-bottom: 25px;
+  color: #F2F2F2;
+}
+
+.button{ 
+  background-color: white;
+  border:none;
+  padding: 17px 30px 17px 30px;
+  text-align: center;
+  display:inline-block;
+  cursor: pointer;
+  letter-spacing: 2px;  
+  border-radius: 50px;
+  font-size:15px;
+}
+
+.button:hover {
+  background-color: #EFEFEF;
+}
+
+.DL a {
+  text-decoration: none;
+  color: #222222; 
+}
+
+
+.contact { 
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.contact h2 {
+  padding-bottom: 5px;
+}
+
+.lets{ 
+  padding-top: 25px;
+}
+
+.I_cont { 
+  padding-top: 10px;
+}
+
+.you { 
+  display: block;
+}
+
+.contact a {
+  color: #f05f40;
+} 
+
