@@ -1,0 +1,321 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+}
+
+
+/* Dimensions & couleurs des diff Block */
+
+/* BLOCK 1 */
+
+
+.navbar {    	
+	background-color: white;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 700;
+	height: 50px;
+	padding-bottom: 10px 15px;
+}
+
+
+nav span a {
+	color: #f05f40;
+}
+
+nav ul li a {
+	color: black;
+	word-spacing: 30px;
+	padding-left: 20px;
+}
+
+/* BLOCK 2 */
+.element1 {	
+	height: 845px;
+	margin-top: 50px;
+	padding-top: 0;
+	background-image: url(img/header.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+
+}
+
+h1, p {
+	text-align: center;
+	color: white;
+}
+
+h1 {
+	font-size: 60px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	margin-top: 250px;
+
+}
+
+/* ligne orange */
+hr {
+	width: 50px;
+	height: 3px;
+	border: 0;
+	margin: auto;
+
+}
+
+.element1 hr, .container1 hr, footer hr {
+	background-color: #f05f40;
+}
+
+.element1 p {
+margin-top: 20px;
+opacity: 0.6;
+font-family: 'Merriweather';
+}
+
+.element1 .btn {
+	background-color: #f05f40;
+	color: white;
+	margin-top: 25px;
+}
+
+.btn {
+	padding: 18px 30px;
+	border-radius: 30px;
+}
+
+
+
+
+/* BLOCK 3 */
+
+h2 {
+	font-family: "Open Sans";
+	font-size: 32px;
+	text-align: center;
+}
+
+.container0 {
+	height: 420px;
+	background-color: #f05f40;
+	text-align: center;
+
+}
+
+.container0 h2 {
+	color: white;
+	margin-top: 100px;
+	margin-bottom: 15px;
+
+}
+
+.container0 hr {
+	background-color: white;
+}
+
+.container0 p {
+	margin-top: 15px;
+	opacity: 0.6;
+}
+
+.container0 .btn, .container2 .btn {
+	font-weight: 600;
+	font-size: 14px;
+}
+
+/* BLOCK 4 */
+.container1 {
+	height: 420px;
+
+}
+
+.container1 h2 {
+	margin-top: 70px;
+	margin-bottom: 20px;
+}
+
+/* icones font-awesome*/
+
+.fa{
+    color: #f05f40;
+    font-size: 65px;
+    margin-top: 40px;
+    margin-left: 140px;
+}
+
+.col-lg-3 i {
+  color:#f05f40;
+  -webkit-animation-name: bounceIn;
+   animation-name: bounceIn;
+   -webkit-animation-duration:35s;
+   animation-duration: 35s;
+   -webkit-animation-fill-mode:both;
+   animation-fill-mode:both;
+}
+@keyframes bounceIn{
+  0% {
+      opacity: 0;
+      -webkit-transform: scale(.3);
+  }
+  50% {
+      opacity: 1;
+      -webkit-transform: scale(1.05);
+  }
+  70%{
+    -webkit-transform: scale(.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes bounceIn{
+  0% {
+      opacity: 0;
+     transform: scale(.3);
+  }
+  50% {
+      opacity: 1;
+      transform: scale(1.05);
+  }
+  70%{
+   transform: scale(.9);
+  }
+  100% {
+   transform: scale(1);
+  }
+}
+
+h3 {
+text-align: center;
+}
+
+
+.text-muted {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+
+/* BLOCK 5 ; hover sur les images */
+.col-md-4{
+  padding:0!important;
+}
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  background: #f05f40;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  padding: 50px 20px;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  max-width: none;
+  width: calc(100% + 20px);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0px,0,0);
+  transform: translate3d(0px,0,0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.hovereffect:hover img {
+  opacity: 0.1;
+  filter: alpha(opacity=40);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.hovereffect p {
+ 
+  color: #fff;
+  text-align: center center;
+  position: relative;
+  font-size: 17px;
+  overflow: hidden;
+  padding: 0.5em 0;
+  background-color: transparent;
+}
+
+
+.hovereffect:hover p:after {
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.hovereffect p {
+  color: #FFF;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(100%,0,0);
+  transform: translate3d(100%,0,0);
+}
+
+.hovereffect:hover p {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+
+/* BLOCK 6 */
+.container2 {	
+	height: 200px;
+	background-color: #222222;
+	text-align: center;
+}
+
+/* BLOCK 7 */
+.footer {	
+	height: 420px;	
+}
+
+.container2 h2 {
+	color: white;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.navbar a:hover {
+	color: #6cf12b;
+}
+
+/*footer*/
+
+footer p {
+	color: black;
+	opacity: 0.8;
+	margin-top: 20px;
+	font-family: "Merriweather";
+	font-weight: 500;
+}
+
+footer h2 {
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
