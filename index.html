@@ -5,29 +5,41 @@
             <link rel="stylesheet" href="Boostrap/css/bootstrap.css">
             <link rel="stylesheet" href="style.css">
             <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+            <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+            <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
             <title>Start Boostrap</title>
     </head>
 
     <body> 
         <div class="container-fluid">
+            
          <header>
         <nav class="navbar navbar-default navbar-fixed-top">
         <div class="navbar-header">
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
         <a class="navbar-brand" href="#">Start Boostrap</a>
         </div>
-        <ul class="nav navbar-nav navbar-right">
+        <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right ">
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Service</a></li>
             <li><a href="#">Portfolio</a></li>
         </ul>
-
+        </div>
     </nav>
     </header>
+            
         <div class="row">
         <section class="section-1">
-            <div class="col-sm-8 ">
-            <div class="contenu">
+            <div  class="col-sm-8">
+            <div id="startchange" class="contenu">
                     <h2>Your Favorite Source Of<br> Free Boostrap Themes</br></h2>
                          <hr/>
             <p>Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C., le rendant vieux de 2000 ans.</p>
@@ -36,20 +48,20 @@
          </div>
         </div>
         </section>
-    
-    <div class="row">
+        
+        <div class="row">
         <section class="section-2">
-            <div class="col-sm-8">
             <div class="contenu">
+               <div class="col-lg-8 col-lg-offset-2">
                 <h3>We've got what you need !</h3>
                     <hr class="separateur-2"/>
                 <p>Plusieurs variations de Lorem Ipsum peuvent être trouvées ici ou là, mais la majeure partie d'entre elles a été altérée par l'addition d'humour ou de mots aléatoires qui ne ressemblent pas une seconde à du texte standard. Si vous voulez utiliser un passage du Lorem Ipsum, vous devez être sûr qu'il n'y a rien d'embarrassant caché dans le texte.</p>
                     <a href="#" type="button" class="btn btn-primary btn-lg btn-2">GET STARTED!</a>
                     </div>
                 </div>
-            </div>
+            
         </section>
-    
+    </div>
         <div class="row">
             <div class="col-sm-12">
             <section class="section-3">
@@ -58,26 +70,137 @@
                             <hr/>
                         </div>
                         <div class="container-ico">
-                            <div class="contenu-ico">
-                                <i class="fa fa-diamond fa-5x" aria-hidden="true"></i>
+                            <div class="contenu-ico col-lg-3 col-md-3 text-center">
+                                <i class="fa fa-diamond fa-5x color-ico-1" aria-hidden="true"></i>
                                 <h4>Strudy Templates<br><small>Si vous voulez utiliser un passage du Lorem Ipsum, vous devez être sûr qu'il n'y a rien.</small></h4>
                                 
                             </div>
-                            <div class="contenu-ico">
-                                <i class="fa fa-paper-plane fa-5x" aria-hidden="true"></i>
+                            <div class="contenu-ico col-lg-3 col-md-3 text-center">
+                                <i class="fa fa-paper-plane fa-5x color-ico-1" aria-hidden="true"></i>
                                 <h4>Strudy Templates<br><small>Si vous voulez utiliser un passage du Lorem Ipsum, vous devez être sûr qu'il n'y a rien.</small></h4>
                             </div>
-                            <div class="contenu-ico">
-                                <i class="fa fa-newspaper-o fa-5x" aria-hidden="true"></i>   <!-- fa-arrow-circle-up -->                            <h4>Strudy Templates<br><small>Si vous voulez utiliser un passage du Lorem Ipsum, vous devez être sûr qu'il n'y a rien.</small></h4>
+                            <div class="animation-target contenu-ico col-lg-3 col-md-3 text-center">
+                                <i class="fa fa-newspaper-o fa-5x color-ico-1" aria-hidden="true"></i>                            <h4>Strudy Templates<br><small>Si vous voulez utiliser un passage du Lorem Ipsum, vous devez être sûr qu'il n'y a rien.</small></h4>
                             </div>
-                            <div class="contenu-ico">
-                                <i class="fa fa-heart fa-5x" aria-hidden="true"></i>   <!-- fa-arrow-circle-up -->                           <h4>Strudy Templates<br><small>Si vous voulez utiliser un passage du Lorem Ipsum, vous devez être sûr qu'il n'y a rien.</small></h4>
+                            <div class=" animated contenu-ico col-lg-3 col-md-3 text-center">
+                                <i class="fa fa-heart fa-5x color-ico-1" aria-hidden="true"></i>                      <h4>Strudy Templates<br><small>Si vous voulez utiliser un passage du Lorem Ipsum, vous devez être sûr qu'il n'y a rien.</small></h4>
                             </div>
-                </div>
+                        </div>
                     </div>
                 </section>
             </div>
-       </div> 
-         </div>
+       </div>
+    <div class="row">
+			<div class ="photos">
+		    		<div class="col-xs-12 col-sm-6 col-md-4"><img src="images/1.jpg" alt="image1"></div>
+
+		    		<div class="col-xs-12 col-sm-6 col-md-4"><img src="images/2.jpg" alt="image2"></div>
+
+				    <div class="col-xs-12 col-sm-6 col-md-4"><img src="images/3.jpg" alt="image3"></div>
+
+				    <div class="col-xs-12 col-sm-6 col-md-4"><img src="images/4.jpg" alt="image4"></div>
+
+				    <div class="col-xs-12 col-sm-6 col-md-4"><img src="images/5.jpg" alt="image5"></div>
+
+				    <div class="col-xs-12 col-sm-6 col-md-4"><img src="images/6.jpg" alt="image6"></div>
+
+				</div>
+
+			</div>
+
+			<div class ="row part-2">
+
+				<h3>Free Download at Start Bootstrap</h3>
+
+			 	<div class ="D">
+
+					<a href="#" class="download" title="Cliquez ici... ou pas"><p>DOWNLOAD NOW !</p></a>
+
+				</div>
+
+			</div>
+
+			<footer>
+
+			  <div class="footext">
+
+				<h4>Let's Get In Touch !</h4>
+
+                    <hr>
+
+	            </div>
+
+			    <div class ="col-md-12">
+
+				  <p>Ready to start your next project with us <abbr title="Thomas S & Patrice G">?</abbr> Give us a call or send us an email and we will get back to you as soon as possible! </p>
+
+				</div>
+
+			  </div>
+
+		      <div class ="contact">
+
+					<div class = "row">
+
+						<div class ="telephone">
+
+							<div class ="col-sm-6">
+
+								<i class="fa fa-phone fa-4x" aria-hidden="true"></i>							
+
+								<p>123-456-6789</p>
+
+							</div>
+
+						</div>
+
+						<div class ="adresse">
+
+							<div class ="col-sm-6">
+
+								<div class ="ctct">
+
+								<i class="fa fa-envelope-o fa-4x" aria-hidden="true"></i>
+
+	 							</div>
+
+									<a class ="mel" href="#" title="Cliquez ici... ou pas">feedback@startbootstrap.com</a>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</footer>
+
+		</div>
+    </div>
+
+                   <script type="text/javascript">
+$(document).ready(function(){       
+   var scroll_start = 0;
+   var startchange = $('#startchange');
+   var offset = startchange.offset();
+    if (startchange.length){
+   $(document).scroll(function() { 
+      scroll_start = $(this).scrollTop();
+      if(scroll_start > offset.top) {
+          $(".navbar-default").css('background-color', '#f0f0f0');
+          
+       } else {
+          $('.navbar-default').css('background-color', 'transparent');
+       }
+   });
+    }
+});
+    
+
+
+
+
+</script>
     </body>
 </html>
