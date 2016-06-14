@@ -1,0 +1,343 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  font-family: "Open Sans";
+}
+
+/*Navbar*/
+
+.navbar-default {
+  background-color: transparent;
+  font-family: "Open Sans";
+  transition: all 0.50s;
+  border-color: #777777;
+}
+.navbar-default .navbar-header .navbar-brand {
+  font-family: "Open Sans";
+  font-weight: 700;
+  color: #dddddd;
+  transition: all 0.50s;
+}
+.navbar-default .navbar-header .navbar-brand:hover {
+  color: white;
+}
+.navbar-default .nav > li > a {
+  font-weight: 700;
+  font-size: 13px;
+  color: #dddddd;
+}
+.navbar-default .nav > li > a:hover {
+  color: white;
+}
+.navbar-right {
+  float: right;
+  margin-right: 0;
+}
+
+
+/*Debut Class pour scroll.js*/
+
+.navbar-default.scroll {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+.navbar-default .navbar-header .navbar-brand.scroll {
+  font-size: 14px;
+  color: #f05f40;
+}
+
+.navbar-default .navbar-header .navbar-brand:hover.scroll{
+  color: #eb3812;
+}
+
+.navbar-default .nav > li > a.scroll {
+  color: black;
+}
+
+.navbar-default .nav > li > a:hover.scroll {
+  color: #f05f40;
+}
+
+/*Fin Class pour scroll.js*/
+
+
+/*Header*/
+
+header {
+  background-image: url(img/header.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  width: 100%;
+  height: 791px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerbox {
+  text-align: center;
+  padding: 0 50px;
+  width: 100%;
+}
+
+.headerbox-inner {
+  width: 80%;
+  margin: auto;
+}
+
+.headerbox-inner h1 {
+  font-size: 65px;
+  margin: auto;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Open Sans";
+}
+
+hr {
+  margin: 30px auto;
+  width: 5%;
+  border-color: #f05f40;
+  border-top-width: 3px;
+}
+
+.headerbox-inner p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #dddddd;
+  margin: auto;
+  margin-bottom: 50px;
+  width: 75%;  
+  font-family: "Merriweather";
+}
+
+.btn-xl {
+  padding: 15px 30px;
+
+}
+
+.btn {
+  font-family: "Open Sans";
+  border: none;
+  border-radius: 300px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  color: #ffffff;
+  background-color: #f05f40;
+  border-color: #f05f40;
+}
+
+.btn-primary:hover {
+  color: #ffffff;
+  background-color: #ee4b28;
+  border-color: #ed431f;
+}
+
+/*section1*/
+
+.bg-primary {
+  background-color: #f05f40;
+  padding: 100px 0; 
+  margin: auto;
+  font-family:"Merriweather";
+}
+
+.title-h2 {
+  font-family: "Open Sans";
+  margin: 0;
+}
+
+.small-line {
+  border-color: #ffffff;
+  margin: 30px auto;
+  width: 5%;
+  border-top-width: 3px;
+}
+
+.text-form {
+  font-family: "Merriweather";
+  font-size: 16px;
+  margin: auto;
+  margin-bottom: 20px;
+  width: 65%;
+  color: #dddddd;
+}
+
+/*section2*/
+
+.bg-default {
+  padding: 100px 0; 
+  margin: auto;
+  font-family:"Merriweather";
+}
+
+.row-alt {
+  text-align: center;
+  margin: auto;
+  width: 75%;
+}
+
+.col-sm-3 p {
+  font-family:"Merriweather";
+}
+
+h3 {
+  font-family: "Open Sans";
+}
+
+.col-sm-3 i {
+  color:#f05f40;
+  -webkit-animation-name: bounceIn;
+   animation-name: bounceIn;
+   -webkit-animation-duration:10s;
+   animation-duration: 10s;
+   -webkit-animation-fill-mode:both;
+   animation-fill-mode:both;
+}
+@keyframes bounceIn{
+  0% {
+      opacity: 0;
+      -webkit-transform: scale(.3);
+  }
+  50% {
+      opacity: 1;
+      -webkit-transform: scale(1.05);
+  }
+  70%{
+    -webkit-transform: scale(.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+@keyframes bounceIn{
+  0% {
+      opacity: 0;
+     transform: scale(.3);
+  }
+  50% {
+      opacity: 1;
+      transform: scale(1.05);
+  }
+  70%{
+   transform: scale(.9);
+  }
+  100% {
+   transform: scale(1);
+  }
+}
+
+.col-sm-3 p {
+  color: #666666;
+  font-size: 16px;
+}
+
+/*section3*/
+
+.col-md-4 {
+  padding: 0;
+}
+
+.effect {
+  width: 100%;
+  height: 100%;
+  background: #f05f40;
+  position: relative;
+}
+
+.effect:hover img {
+  opacity: 0.1;
+  transition: all 0.50s;
+}
+
+.effect:hover .overlay {
+  opacity: 1;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  text-align: center;
+  overflow: hidden;
+  opacity: 0;
+  color: white;
+}
+
+.title-hover {
+  padding: 20% 0 2% 0;
+  font-size: 16px;
+  opacity: 0.7;
+  font-weight: 600;
+  font-family: "Open Sans";
+}
+
+.text-hover {
+  font-size: 22px;
+  font-family: "Open Sans";
+}
+
+/*section4*/
+
+.bg-black{
+  background-color: #222222;
+  padding: 50px 0;
+}
+
+.bg-black h2 {
+  padding: 0 0 15px 0;
+  color: white;
+}
+
+/*Footer*/
+
+footer {
+  padding: 100px 0; 
+  margin: auto;
+  font-family:"Merriweather";
+}
+
+.footer-title {
+  margin-top: 0;
+}
+
+footer hr {
+  margin: 20px auto;
+  width: 5%;
+  border-color: #f05f40;
+  border-top-width: 3px;
+}
+
+.intro {
+  font-family: "Merriweather";
+  font-size: 16px;
+  margin: auto;
+  margin-bottom: 20px;
+  width: 67%;
+}
+
+.row-alt-footer {
+  text-align: center;
+  margin: auto;
+  width: 67%;
+}
+
+footer .col-md-6 a {
+  text-decoration: none;
+  color:#f05f40;
+}
+
+footer .col-md-6 p {
+  font-size: 16px;
+  font-family:"Merriweather";
+}
+
