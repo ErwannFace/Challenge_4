@@ -1,0 +1,182 @@
+*{
+	 font-family:"Open Sans", sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+/*partie At your service*/
+#AtYou {
+	height: 150px;
+	padding-top: 80px;
+}
+
+.forcolons{
+	height: 250px; 
+	padding-top: 30px
+}
+
+.souligne{
+	width: 50px;
+	background-color:#f05f40; 
+	height:4px;
+	border: none;
+	margin:0 auto;
+	}
+	/*photos*/
+	.pic1{
+		background: url(img/1.jpg);
+		background-repeat: no-repeat;
+		float: left;
+		width: 100%;
+		height: 250px;
+		padding: 0px 0px 0px 0px!important;
+	}
+	.text1{
+		background:#FFF; 
+		opacity:0;
+	}
+	.pic1:hover .text1{
+		opacity:0.6; 
+		text-align:center;
+		color:#f05f40;
+		font-size:30px;
+		padding:80px; 
+		height: 250px;
+	}
+	.pic2{
+		background: url(img/2.jpg);
+		background-repeat: no-repeat;
+		float: left;
+		width: 100%;
+		height: 250px;
+		padding: 0px 0px 0px 0px!important;
+	}
+	.text2{
+		background:#FFF; 
+		opacity:0;
+	}
+	.pic2:hover .text2{
+		opacity:0.6; 
+		text-align:center;
+		color:#f05f40;
+		font-size:30px;
+		padding:80px; 
+		height: 250px;
+	}
+	.pic3{
+		background: url(img/3.jpg);
+		background-repeat: no-repeat;
+		float: left;
+		width: 100%;
+		height: 250px;
+		padding: 0px 0px 0px 0px!important;
+	}
+	.text3{
+		background:#FFF; 
+		opacity:0;
+	}
+	.pic3:hover .text3{
+		opacity:0.6; 
+		text-align:center;
+		color:#f05f40;
+		font-size:30px;
+		padding:80px; 
+		height: 250px;
+	}
+	.pic4{
+		background: url(img/4.jpg);
+		background-repeat: no-repeat;
+		float: left;
+		background-repeat: no-repeat;
+		float: left;
+		width: 100%;
+		height: 250px;
+		padding: 0px 0px 0px 0px!important;
+	}
+	.text4{
+		background:#FFF; 
+		opacity:0;
+	}
+	.pic4:hover .text4{
+		opacity:0.6; 
+		text-align:center;
+		color:#f05f40;
+		font-size:30px;
+		padding:80px; 
+		height: 250px;*/
+	}
+	.pic5{
+		background: url(img/5.jpg);
+		background-repeat: no-repeat;
+		float: left;
+		width: 100%;
+		height: 250px;
+		padding: 0px 0px 0px 0px!important;		
+	}
+	.text5{
+		background:#FFF; 
+		opacity:0;
+	}
+	.pic5:hover .text5{
+		text-align: center;
+		opacity:0.6; 
+		color:#f05f40;
+		font-size:30px;
+		padding:80px;
+		height: 250px; 
+	}
+	.pic6{
+		background: url(img/6.jpg);
+		background-repeat: no-repeat;
+		float: left;
+		width: 100%;
+		height: 250px;
+		padding: 0px 0px 0px 0px!important;
+	}
+	
+	.text6{
+		background:#FFF; 
+		opacity:0;
+	}
+	.pic6:hover .text6{
+		text-align: center;
+		opacity:0.6; 
+		color:#f05f40;
+		font-size:30px;
+		padding:80px; 
+		height: 250px;
+	}
+/*.imghover{
+padding: 0px 0px 0px 0px!important;
+	}
+.imghover:hover{
+    overflow: hidden;
+    opacity:0.5;
+}*/
+
+/*en bas de 6images*/
+
+#FreeD{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+/* partie bottom*/
+.bottom_p{
+	margin-top: 40px;
+}
+#Let {
+	padding-right: 200px;
+	padding-left: 200px;
+	padding-top: 100px;
+}
+#tel {
+	margin-top: 30px;
+	padding-right: 0px;
+	padding-left: 300px;
+}
+#message {
+	margin-top: 30px;
+	padding-right: 300px;
+	padding-left: 0px;
+}
