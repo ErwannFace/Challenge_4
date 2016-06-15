@@ -6,6 +6,16 @@
 	padding: 0;
 }
 
+p {
+	font-family: 'Merriweather', serif;
+}
+
+h1, h2, h3,
+.navbar-brand, .navbar-nav a,
+.btn > p {
+	font-family: 'Open Sans', sans-serif;
+}
+
 /* style de la barre de navigation */
 
 header {
@@ -25,7 +35,6 @@ header {
 .navbar-nav a {
 	font-size: 1em;
 	font-weight: 700;
-	font-family: "Open Sans";
 }
 
 .navbar-brand {
@@ -58,7 +67,6 @@ hr {
 .btn > p {
 	margin: 0;
 	font-weight: 700;
-	font-family: "Open Sans";
 }
 
 /* style de la première section ("find out more") */
@@ -75,7 +83,6 @@ h1 {
 	margin-top: 0;
 	font-size: 4em;
 	font-weight: 700;
-	font-family: "Open Sans";
 	color: #FFFFFF;
 }
 
@@ -87,7 +94,6 @@ header+section > p {
 	margin: 0;
 	font-size: 1.2em;
 	font-weight: 100;
-	font-family: "Merriweather";
 	color: rgba(255,255,255,0.8);
 }
 
@@ -108,7 +114,6 @@ header+section+section {
 h2 {
 	margin-top: 0;
 	font-size: 2em;
-	font-family: "Open Sans";
 	color: #FFFFFF;
 }
 
@@ -121,21 +126,12 @@ header+section+section > p {
 	margin: auto;
 	font-size: 1em;
 	font-weight: 100;
-	font-family: "Merriweather";
 	color: rgba(255,255,255,0.8);
 }
 
 header+section+section .btn {
 	background-color: #FFFFFF;
 	color: #000000;
-}
-
-* {
-    font-family: 'Merriweather', sans-serif;
-}
-
-h1, h2, h3 {
-    font-family: 'Open Sans', serif;
 }
 
 .service { /* tout la section avec le titre et les icones*/
